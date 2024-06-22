@@ -26,3 +26,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 4. Menginstal Django versi 5.0.4 dan meng-upgrade pip
 
         modified:   README.md
+
+
+
+## 2. PROYEK DAN APLIKASI DJANGO
