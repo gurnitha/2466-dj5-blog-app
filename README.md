@@ -21,3 +21,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 3. Membuat lingkungan virtual dengan nama 'venv312504'
 
         modified:   README.md
+
+
+#### 4. Menginstal Django versi 5.0.4 dan meng-upgrade pip
+
+        modified:   README.md
