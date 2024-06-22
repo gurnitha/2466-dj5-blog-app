@@ -30,3 +30,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 2. PROYEK DAN APLIKASI DJANGO
+
+
+#### 1. Meng-inisiasi proyek Django
+
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
