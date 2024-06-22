@@ -16,3 +16,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 2. Membuat struktur file
 
         modified:   README.md
+
+
+#### 3. Membuat lingkungan virtual dengan nama 'venv312504'
+
+        modified:   README.md
