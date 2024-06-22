@@ -11,3 +11,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 1. Membuat dan mengklon repositori
 
         modified:   README.md
+
+
+#### 2. Membuat struktur file
+
+        modified:   README.md
