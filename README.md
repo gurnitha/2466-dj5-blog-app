@@ -343,3 +343,89 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 3. Membuat dan mengaplikasikan migrasi untuk model Blog
+
+        (dj5-blog) λ python manage.py makemigrations blog blog
+        System check identified some issues:
+
+        WARNINGS:
+        ?: (staticfiles.W004) The directory 'blog/static' in the STATICFILES_DIRS setting does not exist.
+        Migrations for 'blog':
+          app\blog\migrations\0002_blog.py
+            - Create model Blog
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py migrate blog 0002
+        System check identified some issues:
+
+        WARNINGS:
+        ?: (staticfiles.W004) The directory 'blog/static' in the STATICFILES_DIRS setting does not exist.
+        Operations to perform:
+          Target specific migration: 0002_blog, from blog
+        Running migrations:
+          Applying blog.0002_blog... OK
+
+        (dj5-blog) λ python manage.py sqlmigrate blog 0002
+        System check identified some issues:
+
+        WARNINGS:
+        ?: (staticfiles.W004) The directory 'blog/static' in the STATICFILES_DIRS setting does not exist.
+        --
+        -- Create model Blog
+        --
+        CREATE TABLE `blog_blog` (
+                `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+                `title` varchar(100) NOT NULL, 
+                `slug` varchar(150) NOT NULL UNIQUE, 
+                `featured_image` varchar(100) NOT NULL, 
+                `short_description` longtext NOT NULL, 
+                `blog_body` longtext NOT NULL, 
+                `status` varchar(20) NOT NULL, 
+                `is_featured` bool NOT NULL, 
+                `created_at` datetime(6) NOT NULL, 
+                `updated_at` datetime(6) NOT NULL, 
+                `author_id` integer NOT NULL, 
+                `category_id` bigint NOT NULL
+        );
+        ALTER TABLE `blog_blog` ADD CONSTRAINT `blog_blog_author_id_8791af69_fk_auth_user_id` FOREIGN KEY (`author_id`) REFERENCES `auth_user` (`id`);
+        ALTER TABLE `blog_blog` ADD CONSTRAINT `blog_blog_category_id_c34d5f94_fk_blog_category_id` FOREIGN KEY (`category_id`) REFERENCES `blog_category` (`id`);
+
+        mysql> SHOW tables;
+        +-----------------------------+
+        | Tables_in_2466_dj5_blog_app |
+        +-----------------------------+
+        | auth_group                  |
+        | auth_group_permissions      |
+        | auth_permission             |
+        | auth_user                   |
+        | auth_user_groups            |
+        | auth_user_user_permissions  |
+        | blog_blog                   |
+        | blog_category               |
+        | django_admin_log            |
+        | django_content_type         |
+        | django_migrations           |
+        | django_session              |
+        +-----------------------------+
+        12 rows in set (0.00 sec)
+
+        mysql> DESC blog_blog;
+        +-------------------+--------------+------+-----+---------+----------------+
+        | Field             | Type         | Null | Key | Default | Extra          |
+        +-------------------+--------------+------+-----+---------+----------------+
+        | id                | bigint       | NO   | PRI | NULL    | auto_increment |
+        | title             | varchar(100) | NO   |     | NULL    |                |
+        | slug              | varchar(150) | NO   | UNI | NULL    |                |
+        | featured_image    | varchar(100) | NO   |     | NULL    |                |
+        | short_description | longtext     | NO   |     | NULL    |                |
+        | blog_body         | longtext     | NO   |     | NULL    |                |
+        | status            | varchar(20)  | NO   |     | NULL    |                |
+        | is_featured       | tinyint(1)   | NO   |     | NULL    |                |
+        | created_at        | datetime(6)  | NO   |     | NULL    |                |
+        | updated_at        | datetime(6)  | NO   |     | NULL    |                |
+        | author_id         | int          | NO   | MUL | NULL    |                |
+        | category_id       | bigint       | NO   | MUL | NULL    |                |
+        +-------------------+--------------+------+-----+---------+----------------+
+        12 rows in set (0.00 sec)
