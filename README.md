@@ -194,3 +194,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   templates/blog/index.html
+
+
+#### 4. Membuat laman home bagian 4: meng-aktifkan templates Django
+
+        modified:   README.md
+        modified:   config/settings.py
