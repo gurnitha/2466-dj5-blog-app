@@ -200,3 +200,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 5. Membuat laman home bagian 5: mengisi text pada laman home
+
+        modified:   README.md
+        modified:   templates/blog/index.html
