@@ -480,3 +480,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 7. LOAD DAN DISPLAY OBJECTS
+
+
+#### 1. Load dan display Category objects bagian 1: testing print categories object ke terminal
+
+        modified:   README.md
+        modified:   app/blog/views.py
