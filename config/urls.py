@@ -20,6 +20,8 @@ Including another URLconf
 # Django and third parties modules
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     # admin
@@ -27,4 +29,5 @@ urlpatterns = [
 
     # blog
     path("", include("app.blog.urls", namespace="blog")),
-]
+    
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -440,3 +440,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         NOTE: Error krn blm disetup path untuk media files
 
         NEXT: Setup media file path
+
+
+#### 6. Mensetup media file path dan re-upload image
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
+        renamed:    uploads/2024/06/23/prabowo.png -> media/uploads/2024/06/23/prabowo.png
