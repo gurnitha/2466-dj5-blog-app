@@ -212,3 +212,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+
+#### 7. Membuat laman home bagian 7: membuat path untuk static file
+
+        modified:   README.md
+        modified:   config/settings.py
