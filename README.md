@@ -278,3 +278,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 2. Membuat dan mengaplikasikan migrasi untuk model Category
+
+        modified:   README.md
+        new file:   app/blog/migrations/0001_initial.py
