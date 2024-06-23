@@ -259,3 +259,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/blog/static/images/cricket.jpg
         modified:   app/blog/views.py
         new file:   templates/base.html
+
+
+#### 13. Template inheritance bagian 2: extends base.html pada laman home
+
+        modified:   README.md
+        new file:   app/blog/static/images/national_team.png
+        modified:   app/blog/views.py
+        modified:   templates/base.html
+        modified:   templates/blog/index.html
