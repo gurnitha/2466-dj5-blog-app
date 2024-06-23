@@ -486,3 +486,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/views.py
+
+
+#### 2. Load dan display Category objects bagian 2: display categories object pada navbar
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/base.html

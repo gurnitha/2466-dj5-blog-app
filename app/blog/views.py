@@ -14,6 +14,10 @@ def home_view(request):
 	categories = Category.objects.all()
 	
 	# Print objects untuk testing
-	print(categories)
+	# print(categories)
 
-	return render(request, "blog/index.html")
+	data = {
+		"categories":categories
+	}
+
+	return render(request, "blog/index.html", data)
