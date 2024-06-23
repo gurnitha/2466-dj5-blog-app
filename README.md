@@ -268,3 +268,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/blog/views.py
         modified:   templates/base.html
         modified:   templates/blog/index.html
+
+
+
+## 6. MODELS
