@@ -448,3 +448,13 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   config/settings.py
         modified:   config/urls.py
         renamed:    uploads/2024/06/23/prabowo.png -> media/uploads/2024/06/23/prabowo.png
+
+        Note: Kolom slug masih diisi scr manual. Sebaiknya bisa diisi scr otomatis.
+
+        NEXT: Pre-populated slug
+
+
+#### 7. Pre-populated slug
+
+        modified:   README.md
+        modified:   app/blog/admin.py
