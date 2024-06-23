@@ -80,3 +80,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/apps.py
         modified:   config/settings.py
+
+
+
+## 3. DATABASE DAN KONFIGURASI
