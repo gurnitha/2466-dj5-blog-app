@@ -284,3 +284,50 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   app/blog/migrations/0001_initial.py
+
+
+#### 3. Melihat perintah Django untuk membuat tabel
+
+        (dj5-blog) λ python manage.py sqlmigrate blog 0001
+
+        --
+        -- Create model Category
+        --
+        CREATE TABLE `blog_category` (
+                `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+                `category_name` varchar(50) NOT NULL UNIQUE, 
+                `created_at` datetime(6) NOT NULL, 
+                `updated_at` datetime(6) NOT NULL
+        );
+
+        mysql> SHOW tables;
+        +-----------------------------+
+        | Tables_in_2466_dj5_blog_app |
+        +-----------------------------+
+        | auth_group                  |
+        | auth_group_permissions      |
+        | auth_permission             |
+        | auth_user                   |
+        | auth_user_groups            |
+        | auth_user_user_permissions  |
+        | blog_category               |
+        | django_admin_log            |
+        | django_content_type         |
+        | django_migrations           |
+        | django_session              |
+        +-----------------------------+
+        11 rows in set (0.01 sec)
+
+        mysql> DESC blog_category;
+        +---------------+-------------+------+-----+---------+----------------+
+        | Field         | Type        | Null | Key | Default | Extra          |
+        +---------------+-------------+------+-----+---------+----------------+
+        | id            | bigint      | NO   | PRI | NULL    | auto_increment |
+        | category_name | varchar(50) | NO   | UNI | NULL    |                |
+        | created_at    | datetime(6) | NO   |     | NULL    |                |
+        | updated_at    | datetime(6) | NO   |     | NULL    |                |
+        +---------------+-------------+------+-----+---------+----------------+
+        4 rows in set (0.01 sec)
+
+        mysql> SELECT * FROM blog_category;
+        Empty set (0.00 sec)
