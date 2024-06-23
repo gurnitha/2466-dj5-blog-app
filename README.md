@@ -206,3 +206,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+
+#### 6. Membuat laman home bagian 6: mengisi bootstrap template pada laman home
+
+        modified:   README.md
+        modified:   templates/blog/index.html
