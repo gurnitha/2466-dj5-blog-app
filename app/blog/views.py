@@ -16,12 +16,16 @@ def home_view(request):
 	# Select featured object dari Blog
 	featured_posts = Blog.objects.filter(is_featured=True)
 
+	# Select semua blogs yang bukan featured dengan status published
+	posts = Blog.objects.filter(is_featured=False, status="Published")
+
 	# Print objects untuk testing
-	# print(featured_posts)
+	# print(posts)
 
 	data = {
 		"categories":categories,
-		"featured_posts":featured_posts
+		"featured_posts":featured_posts,
+		"posts":posts
 	}
 
 	return render(request, "blog/index.html", data)

@@ -528,3 +528,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+
+#### 7. Menampilkan recent posts
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/blog/index.html
