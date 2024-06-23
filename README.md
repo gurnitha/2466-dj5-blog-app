@@ -228,3 +228,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/blog/static/bootstrap.bundle.min.js
         new file:   app/blog/static/bootstrap.min.css
         new file:   app/blog/static/color-modes.js
+
+
+#### 9. Membuat laman home bagian 9: mengelompokan static file
+
+        modified:   README.md
+        renamed:    app/blog/static/blog.css -> app/blog/static/css/blog.css
+        renamed:    app/blog/static/blog.rtl.css -> app/blog/static/css/blog.rtl.css
+        renamed:    app/blog/static/bootstrap.min.css -> app/blog/static/css/bootstrap.min.css
+        renamed:    app/blog/static/bootstrap.bundle.min.js -> app/blog/static/js/bootstrap.bundle.min.js
+        new file:   app/blog/static/js/bootstrap.min.css
+        renamed:    app/blog/static/color-modes.js -> app/blog/static/js/color-modes.js
