@@ -464,3 +464,15 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 9. Menambahkan bebera blog entri melalui admin panel
+
+        modified:   README.md
+        new file:   media/uploads/2024/06/23/bisnis.png
+        new file:   media/uploads/2024/06/23/budaya.png
+        new file:   media/uploads/2024/06/23/covid-19.png
+        new file:   media/uploads/2024/06/23/rupiah.png
+        new file:   media/uploads/2024/06/23/sain.png
+        new file:   media/uploads/2024/06/23/teknologi.png
+        new file:   media/uploads/2024/06/23/timnas.png
