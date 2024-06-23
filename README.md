@@ -218,3 +218,13 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 8. Membuat laman home bagian 8: mengisi static file
+
+        modified:   README.md
+        new file:   app/blog/static/blog.css
+        new file:   app/blog/static/blog.rtl.css
+        new file:   app/blog/static/bootstrap.bundle.min.js
+        new file:   app/blog/static/bootstrap.min.css
+        new file:   app/blog/static/color-modes.js
