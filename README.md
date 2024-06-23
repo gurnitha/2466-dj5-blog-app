@@ -337,3 +337,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 5. Membuat model Blog
+
+        modified:   README.md
+        modified:   app/blog/models.py
