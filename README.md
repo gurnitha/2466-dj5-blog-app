@@ -182,3 +182,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         new file:   app/blog/urls.py
         modified:   config/urls.py
+
+
+#### 2. Membuat laman home bagian 2: membuat home_view
+
+        modified:   README.md
+        modified:   app/blog/views.py
