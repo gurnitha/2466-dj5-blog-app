@@ -171,3 +171,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         Kata sandi terlalu mirip dengan alamat email.
         Bypass password validation and create user anyway? [y/N]: y
         Superuser created successfully.
+
+
+
+## 5. URLS, VIEWS, TEMPLATES
