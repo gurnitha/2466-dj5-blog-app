@@ -539,3 +539,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 8. BLOGS BY CATEGORY
+
+
+#### 1. Load dan display blogs by category bagian 1: testing
+
+        modified:   README.md
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
