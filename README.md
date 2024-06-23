@@ -458,3 +458,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 8. Memodifikasi tampilan model/tabel pada admin panel
+
+        modified:   README.md
+        modified:   app/blog/admin.py
