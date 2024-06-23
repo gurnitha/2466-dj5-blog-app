@@ -119,3 +119,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 4. Membuat konfigurasi bahasa dan waktu
+
+        modified:   README.md
+        modified:   config/settings.py
