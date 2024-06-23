@@ -546,3 +546,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/urls.py
         modified:   app/blog/views.py
+
+
+#### 2. Load dan display blogs by category bagian 2: display pada laman blogs_by_category
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        new file:   templates/blog/blogs_by_category.html

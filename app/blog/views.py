@@ -38,7 +38,7 @@ def blogs_by_category_view(request, category_id):
     blogs_by_category = Blog.objects.filter(status='Published', category=category_id)
 
     # Testing
-    return HttpResponse(blogs_by_category)
+    # return HttpResponse(blogs_by_category)
 
     data = {
         'blogs_by_category': blogs_by_category,
