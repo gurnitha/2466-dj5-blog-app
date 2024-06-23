@@ -188,3 +188,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/views.py
+
+
+#### 3. Membuat laman home bagian 3: membuat template untuk laman home
+
+        modified:   README.md
+        new file:   templates/blog/index.html
