@@ -251,3 +251,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+
+#### 12. Template inheritance bagian 1: membuat dan menampilkan base template
+
+        modified:   README.md
+        new file:   app/blog/static/images/cricket.jpg
+        modified:   app/blog/views.py
+        new file:   templates/base.html
