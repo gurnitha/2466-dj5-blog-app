@@ -15,12 +15,13 @@ def home_view(request):
 
 	# Select featured object dari Blog
 	featured_posts = Blog.objects.filter(is_featured=True)
-	
+
 	# Print objects untuk testing
-	print(featured_posts)
+	# print(featured_posts)
 
 	data = {
-		"categories":categories
+		"categories":categories,
+		"featured_posts":featured_posts
 	}
 
 	return render(request, "blog/index.html", data)

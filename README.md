@@ -499,3 +499,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/views.py
+
+
+#### 4. Load dan display featured objects dari Blog bagian 2: display featured objects ke laman home
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/base.html
+
+        NOTE: Too many featured posts for hero section
+
+        NEXT: Show only 1 featured post as hero section
