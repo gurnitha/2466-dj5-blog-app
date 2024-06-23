@@ -113,3 +113,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
         Installing collected packages: mysqlclient
         Successfully installed mysqlclient-2.2.4
+
+
+#### 3. Menghubungan database dengan proyek
+
+        modified:   README.md
+        modified:   config/settings.py
