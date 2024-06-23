@@ -476,3 +476,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   media/uploads/2024/06/23/sain.png
         new file:   media/uploads/2024/06/23/teknologi.png
         new file:   media/uploads/2024/06/23/timnas.png
+
+
+
+## 7. LOAD DAN DISPLAY OBJECTS
