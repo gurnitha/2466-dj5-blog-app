@@ -155,3 +155,19 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
           Applying auth.0011_update_proxy_permissions... OK
           Applying auth.0012_alter_user_first_name_max_length... OK
           Applying sessions.0001_initial... OK
+
+
+#### 2. Membuat superuser/admin
+
+        (dj5-blog) λ ls
+        app/  config/  db.sqlite3  manage.py*  README.md  venv312504/
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py createsuperuser
+        Nama pengguna (leave blank to use 'ing'): superuser
+        Alamat email: superuser@mail.com
+        Password:
+        Password (again):
+        Kata sandi terlalu mirip dengan alamat email.
+        Bypass password validation and create user anyway? [y/N]: y
+        Superuser created successfully.
