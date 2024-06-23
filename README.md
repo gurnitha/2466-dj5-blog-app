@@ -522,3 +522,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
                 codes here ...
             {% endif %}
         {% endfor %}
+
+
+#### 6. Menampilkan sisa featured posts
+
+        modified:   README.md
+        modified:   templates/blog/index.html
