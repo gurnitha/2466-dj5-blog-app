@@ -272,3 +272,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 6. MODELS
+
+
+#### 1. Membuat model Category
+
+        modified:   README.md
+        modified:   app/blog/models.py
