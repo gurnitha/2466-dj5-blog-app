@@ -175,3 +175,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 5. URLS, VIEWS, TEMPLATES
+
+
+#### 1. Membuat laman home bagian 1: membuat urls
+
+        modified:   README.md
+        new file:   app/blog/urls.py
+        modified:   config/urls.py
