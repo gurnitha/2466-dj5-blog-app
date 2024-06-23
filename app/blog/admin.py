@@ -5,9 +5,10 @@ from django.contrib import admin
 
 
 # Locals
-from app.blog.models import Category
+from app.blog.models import Category, Blog
 
 
 # Register your models here.
 
 admin.site.register(Category)
+admin.site.register(Blog)

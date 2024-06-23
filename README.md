@@ -429,3 +429,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         | category_id       | bigint       | NO   | MUL | NULL    |                |
         +-------------------+--------------+------+-----+---------+----------------+
         12 rows in set (0.00 sec)
+
+
+#### 5. Mendaftarkan model Blog pada blog/admin.py dan membuat entries
+
+        modified:   README.md
+        modified:   app/blog/admin.py
+        new file:   uploads/2024/06/23/prabowo.png
+
+        NOTE: Error krn blm disetup path untuk media files
+
+        NEXT: Setup media file path
