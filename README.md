@@ -73,3 +73,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/blog/models.py
         new file:   app/blog/tests.py
         new file:   app/blog/views.py
+
+
+#### 4. Mendaftarkan aplikasi blog pada config/settings.py
+
+        modified:   README.md
+        modified:   app/blog/apps.py
+        modified:   config/settings.py
