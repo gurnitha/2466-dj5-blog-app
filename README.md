@@ -103,3 +103,13 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         mysql> CREATE DATABASE 2466_dj5_blog_app;
         Query OK, 1 row affected (0.49 sec)
+
+
+#### 2. Meng-instal mysqlclient
+
+        (dj5-blog) λ pip install mysqlclient
+        Collecting mysqlclient
+          Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl.metadata (4.6 kB)
+        Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
+        Installing collected packages: mysqlclient
+        Successfully installed mysqlclient-2.2.4
