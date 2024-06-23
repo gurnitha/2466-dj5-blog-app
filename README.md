@@ -493,3 +493,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   templates/base.html
+
+
+#### 3. Load dan display featured objects dari Blog bagian 1: testing print featured objects ke terminal
+
+        modified:   README.md
+        modified:   app/blog/views.py

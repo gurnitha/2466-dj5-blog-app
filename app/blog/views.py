@@ -4,7 +4,7 @@
 from django.shortcuts import render
 
 # Locals
-from app.blog.models import Category
+from app.blog.models import Category, Blog
 
 # Create your views here.
 
@@ -12,9 +12,12 @@ def home_view(request):
 
 	# Select semua object dari tabel Category
 	categories = Category.objects.all()
+
+	# Select featured object dari Blog
+	featured_posts = Blog.objects.filter(is_featured=True)
 	
 	# Print objects untuk testing
-	# print(categories)
+	print(featured_posts)
 
 	data = {
 		"categories":categories
