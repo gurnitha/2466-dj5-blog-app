@@ -510,3 +510,15 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         NOTE: Too many featured posts for hero section
 
         NEXT: Show only 1 featured post as hero section
+
+
+#### 5. Show only 1 featured post as hero section
+
+        modified:   README.md
+        modified:   templates/base.html
+
+        {% for featured_post in featured_posts %}
+            {% if forloop.first %}
+                codes here ...
+            {% endif %}
+        {% endfor %}
