@@ -331,3 +331,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         mysql> SELECT * FROM blog_category;
         Empty set (0.00 sec)
+
+
+#### 4. Mendaftarkan model Category pada blog/admin.py dan membuat entries
+
+        modified:   README.md
+        modified:   app/blog/admin.py
