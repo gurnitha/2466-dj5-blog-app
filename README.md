@@ -635,3 +635,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 4. Load dan display blogs by slug - bagian 4: membuat tautan untuk judul blog
+
+        modified:   README.md
+        modified:   templates/blog/index.html
