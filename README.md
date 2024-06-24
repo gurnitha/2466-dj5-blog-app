@@ -602,3 +602,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   templates/base.html
         modified:   templates/blog/blogs_by_category.html
+
+
+
+## 9. BLOGS BY SLUG
