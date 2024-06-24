@@ -52,8 +52,10 @@
                     <h1 class="display-4 font-italic">{{ featured_post.title }}</h1>
                     <p class="lead my-3">{{ featured_post.short_description | truncatewords:25 }}</p>
                     <p class="lead mb-0">
-                        <a href="#" class="text-white font-weight-bold">
-                        Continue reading...
+                        <a 
+                            href="{% url 'blog:blogs_by_slug' featured_post.slug %}" 
+                            class="text-white font-weight-bold">
+                            Continue reading...
                         </a>
                     </p>
                 </div>

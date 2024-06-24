@@ -614,3 +614,17 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/blog/urls.py
         modified:   app/blog/views.py
         new file:   templates/blog/blogs_by_slug.html
+
+
+#### 2. Load dan display blogs by slug - bagian 2: extending base template dan membuat tautan
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/blog/blogs_by_slug.html
+
+        Note: 
+
+        Konten yang ditampilkan bersifat statis dan
+        tidak ada hubungan dengan slug.
+
+        NEXT: Menampilkan konten yang berkaitan dengan slug.
