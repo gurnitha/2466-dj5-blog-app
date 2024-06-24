@@ -595,3 +595,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/blog/context_processors.py
         modified:   app/blog/views.py
         modified:   config/settings.py
+
+
+#### 8. Load dan display blogs by category bagian 8: membuat tautan (links)
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/blog/blogs_by_category.html
