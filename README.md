@@ -647,3 +647,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 6. Load dan display blogs by slug - bagian 6: fetch categories pada laman blogs_by_slug
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_slug.html
