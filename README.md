@@ -606,3 +606,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 9. BLOGS BY SLUG
+
+
+#### 1. Load dan display blogs by slug - bagian 1: urls, views, templates
+
+        modified:   README.md
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
+        new file:   templates/blog/blogs_by_slug.html

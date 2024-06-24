@@ -50,3 +50,8 @@ def blogs_by_category_view(request, category_id):
     }
 
     return render(request, 'blog/blogs_by_category.html', data)
+
+
+# src/app/blog/views.py
+def blogs_by_slug_view(request, slug):
+    return render(request, 'blog/blogs_by_slug.html')
