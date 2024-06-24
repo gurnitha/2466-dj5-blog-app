@@ -1,8 +1,33 @@
 <!-- src/templates/blog/blogs_by_category.html -->
+{% extends 'base.html' %}
 
+{% block content %}
 
-{% for blog_by_category in blogs_by_category %}
+<!-- Featured Posts -->
+<h3 class="text-uppercase text-warning" style="letter-spacing: 2px;">Category - {{ category }}</h3>
+<div class="row mb-2">
 
-	{{ blog_by_category }}<br>
+    {% if blogs_by_category %}
 
-{% endfor %}
+	    {% for blog_by_category in blogs_by_category %}
+	    <div class="col-md-6">
+	        <div class="card border-0" >
+	            <div class="card-body">
+	                <h3><a href="#" class="text-dark">{{ blog_by_category.title }}</a></h3>
+	                <small class="mb-1 text-muted">
+	                	{{ blog_by_category.created_at | timesince }} ago | {{ blog_by_category.author }}
+	                </small>
+	                <p class="card-text">{{ blog_by_category.short_description | truncatewords:25 }}</p>
+	            </div>
+	        </div>
+	    </div>
+	    {% endfor %}
+
+	    {% else %}
+	    <p>Tidak ditemui blog by category.</p>
+
+    {% endif %}
+</div>
+</div>
+
+{% endblock %}

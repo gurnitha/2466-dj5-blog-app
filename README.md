@@ -553,3 +553,16 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         new file:   templates/blog/blogs_by_category.html
+
+
+#### 3. Load dan display blogs by category bagian 3: mengisi layout untuk laman blogs_by_category
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_category.html
+
+        Note: 
+
+        <p>Tidak ditemui blog by category.</p> sebaiknya
+        tidak ditampilkan.
+
+        Arahkan user ke laman home bila tidak ditemui blog by category.
