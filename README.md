@@ -566,3 +566,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         tidak ditampilkan.
 
         Arahkan user ke laman home bila tidak ditemui blog by category.
+
+
+#### 4. Load dan display blogs by category bagian 4: mengarahkan user ke laman home bila tidak ditemui blog by category
+
+        modified:   README.md
+        modified:   app/blog/views.py

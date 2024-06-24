@@ -1,7 +1,7 @@
 # src/app/blog/views.py
 
 # Django and third parties modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 # Locals
@@ -32,16 +32,22 @@ def home_view(request):
 	return render(request, "blog/index.html", data)
 
 
+
 def blogs_by_category_view(request, category_id):
     
     # Fetch the blogs that belongs to a category identified by its category_id
     blogs_by_category = Blog.objects.filter(status='Published', category=category_id)
 
-    # Testing
-    # return HttpResponse(blogs_by_category)
+    # Gunakan try/except untuk tidak memperlihatkan warning LAMAN TIDAK DITEMUI bila category tidak ada
+    try:
+        category = Category.objects.get(pk=category_id)
+    except:
+        # redirect the user to homepage
+        return redirect('blog:home')
 
     data = {
-        'blogs_by_category': blogs_by_category,
+        "blogs_by_category": blogs_by_category,
+        "category":category,
     }
 
     return render(request, 'blog/blogs_by_category.html', data)
