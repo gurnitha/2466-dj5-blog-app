@@ -38,15 +38,15 @@ def blogs_by_category_view(request, category_id):
     # Fetch the blogs that belongs to a category identified by its category_id
     blogs_by_category = Blog.objects.filter(status='Published', category=category_id)
 
-    # # Gunakan try/except untuk tidak memperlihatkan warning LAMAN TIDAK DITEMUI bila category tidak ada
-    # try:
-    #     category = Category.objects.get(pk=category_id)
-    # except:
-    #     # redirect the user to homepage
-    #     return redirect('blog:home')
+    # Gunakan try/except untuk tidak memperlihatkan warning LAMAN TIDAK DITEMUI bila category tidak ada
+    try:
+        category = Category.objects.get(pk=category_id)
+    except:
+        # redirect the user to homepage
+        return redirect('blog:home')
 
-    # Use get_object_or_404 when you want to show 404 error page if the category does not exist
-    category = get_object_or_404(Category, pk=category_id)
+    # # Use get_object_or_404 when you want to show 404 error page if the category does not exist
+    # category = get_object_or_404(Category, pk=category_id)
 
     data = {
         "blogs_by_category": blogs_by_category,

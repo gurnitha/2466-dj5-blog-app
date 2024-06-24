@@ -580,3 +580,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/blog/views.py
         modified:   config/settings.py
         new file:   templates/404.html
+
+
+#### 6. Load dan display blogs by category bagian 6: mengembalikan 'page not found' ke laman home
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   config/settings.py
