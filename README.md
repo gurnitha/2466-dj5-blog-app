@@ -641,3 +641,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+
+#### 5. Load dan display blogs by slug - bagian 5: mengisi layout dan fetch data
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_slug.html
