@@ -587,3 +587,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   config/settings.py
+
+
+#### 7. Load dan display blogs by category bagian 7: context_processors
+
+        modified:   README.md
+        new file:   app/blog/context_processors.py
+        modified:   app/blog/views.py
+        modified:   config/settings.py
