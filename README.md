@@ -628,3 +628,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         tidak ada hubungan dengan slug.
 
         NEXT: Menampilkan konten yang berkaitan dengan slug.
+
+
+#### 3. Load dan display blogs by slug - bagian 3: menampilkan konten yang berkaitan dengan slug
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/blog/blogs_by_slug.html

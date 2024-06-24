@@ -54,4 +54,11 @@ def blogs_by_category_view(request, category_id):
 
 # src/app/blog/views.py
 def blogs_by_slug_view(request, slug):
-    return render(request, 'blog/blogs_by_slug.html')
+    
+    single_blog = get_object_or_404(Blog, slug=slug, status="Published")
+
+    data = {
+        "single_blog":single_blog
+    }
+
+    return render(request, 'blog/blogs_by_slug.html', data)
