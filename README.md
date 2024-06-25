@@ -825,3 +825,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/context_processors.py
         modified:   config/settings.py
+
+
+### 11. Membuat entries dan menampilkan SocialLink
+
+        modified:   README.md
+        modified:   app/blog/context_processors.py
+        modified:   templates/blog/about.html

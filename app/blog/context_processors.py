@@ -1,7 +1,7 @@
 # src/app/blog/context_processors.py.py
 
 # Locals
-from app.blog.models import Category
+from app.blog.models import Category, SocialLink
 
 
 def get_categories(request):
@@ -10,5 +10,5 @@ def get_categories(request):
 
 
 def get_social_links(request):
-	social_links = Category.objects.all()
+	social_links = SocialLink.objects.all()
 	return dict(social_links=social_links)
