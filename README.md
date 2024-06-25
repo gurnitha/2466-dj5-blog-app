@@ -856,3 +856,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/search.html
+
+
+#### 4. Membuat funsionalitas search pada search_view
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/base.html

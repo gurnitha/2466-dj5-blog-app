@@ -3,6 +3,7 @@
 # Django and third parties modules
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
+from django.db.models import Q
 
 # Locals
 from app.blog.models import Category, Blog, About
@@ -77,4 +78,23 @@ def about_view(request):
 
 def search_view(request):
 
-    return render(request, 'blog/search.html')
+    keyword = request.GET.get('keyword')
+    
+    # # Testing
+    # print('this keyword', keyword)
+    
+    blogs = Blog.objects.filter(
+        Q(title__icontains=keyword) | 
+        Q(short_description__icontains=keyword) | 
+        Q(blog_body__icontains=keyword), 
+        status='Published')
+  
+    # Testing
+    print(blogs)
+
+    data = {
+        'blogs': blogs,
+        'keyword': keyword,
+    }
+
+    return render(request, 'blog/search.html', data)

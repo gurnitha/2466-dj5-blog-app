@@ -21,7 +21,7 @@
                     <a class="blog-header-logo text-dark" href="{% url 'blog:home' %}">Django Blog</a>
                 </div>
                 <div class="col-4">
-                    <form action="" method="GET">
+                    <form action="{% url 'blog:search' %}" method="GET">
                         <div class="input-group">
                             <input 
                                 class="form-control" 
