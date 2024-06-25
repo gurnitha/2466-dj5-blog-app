@@ -949,3 +949,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/user/views.py
         modified:   templates/base.html
         new file:   templates/user/login.html
+
+
+#### 10. Menambahkan form layout pada laman login
+
+        modified:   README.md
+        modified:   templates/user/login.html
