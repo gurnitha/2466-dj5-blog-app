@@ -711,6 +711,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         | updated_at        | datetime(6) | NO   |     | NULL    |                |
         +-------------------+-------------+------+-----+---------+----------------+
         5 rows in set (0.05 sec)
-        
+
         modified:   README.md
         new file:   app/blog/migrations/0003_about.py
+
+
+#### 3. Mendaftarkan model About pada blog/admin.py
+
+        modified:   README.md
+        modified:   app/blog/admin.py
