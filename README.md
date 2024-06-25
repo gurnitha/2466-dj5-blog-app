@@ -665,3 +665,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 10. SOSIAL MEDIA DAN LAMAN ABOUT
+
+
+#### 1. Membuat model About
+
+        modified:   README.md
+        modified:   app/blog/models.py
