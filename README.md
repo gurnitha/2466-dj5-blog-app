@@ -929,3 +929,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   config/settings.py
         modified:   templates/base.html
         modified:   templates/user/register.html
+
+
+#### 8. Membuat fungsionalitas registrasi
+
+        modified:   README.md
+        modified:   app/user/views.py
+        modified:   templates/base.html
+
+        NOTE:
+
+        Sukses register user baru.
