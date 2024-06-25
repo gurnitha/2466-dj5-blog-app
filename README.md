@@ -812,3 +812,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   app/blog/migrations/0004_sociallink.py
+
+
+### 9. Mendaftarkan model SocialLink pada blog/admin.py
+
+        modified:   README.md
+        modified:   app/blog/admin.py
