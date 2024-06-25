@@ -10,26 +10,22 @@
             <!-- Post content-->
             <article>
                 <!-- Post header-->
+                {% for about in about %}
                 <header class="mb-4">
                     <!-- Post title-->
-                    <h1 class="fw-bolder mb-1">Rupiah Melemahalam Sepekan</h1>
+                    <h1 class="fw-bolder mb-1">{{ about.about_heading }}</h1>
                     <!-- Post meta content-->
                     <div class="text-muted fst-italic mb-2">
-                        Posted on 23 Juni 2024, 14.11 
-                        by superuser
+                        {{ about.created_at }}
                     </div>
                     <!-- Post category-->
-                    <a 
-                        class="badge bg-primary text-decoration-none text-light" 
-                        href="#!">Ekonomi
-                    </a>
                 </header>
                 <!-- Post content-->
                 <section class="mb-5">
-                    <p class="fs-5 mb-4">Rupiah spot ditutup pada level Rp 16.450 per dolar AS di akhir perdagangan Jumat (21/6), melemah 0,12% dari sehari sebelumnya. Dalam sepekan, rupiah spot melemah sekitar 0,23%.
-                        Selaras dengan pergerakan di pasar spot, Rupiah Jisdor Bank Indonesia (BI) terpantau ikut melemah. Jumat (21/6), Rupiah Jisdor ditutup pada posisi Rp 16.458 per dolar AS, melemah 0,23% dibanding sehari sebelumnya. Dalam sepekan, rupiah Jisdor melemah sekitar 0,51%.
+                    <p class="fs-5 mb-4">{{ about.about_description }}
                     </p>
                 </section>
+                {% endfor %}
             </article>
         </div>
         <!-- Side widgets-->
@@ -51,46 +47,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <ul class="list-unstyled mb-0">
+                                {% for category in categories %}
                                 <li>
-                                    <a href="/blogs/1/">
-                                    Politik
+                                    <a href="{% url 'blog:posts_by_category' category.id %}">
+                                    {{ category.category_name }}
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="/blogs/2/">
-                                    Ekonomi
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/3/">
-                                    Sain
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/4/">
-                                    Olahraga
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/5/">
-                                    Kesehatan
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/6/">
-                                    Bisnis
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/7/">
-                                    Teknologi
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/blogs/8/">
-                                    Budaya
-                                    </a>
-                                </li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>

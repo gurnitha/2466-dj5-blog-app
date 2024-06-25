@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 
 # Locals
-from app.blog.models import Category, Blog
+from app.blog.models import Category, Blog, About
 
 # Create your views here.
 
@@ -66,4 +66,10 @@ def blogs_by_slug_view(request, slug):
 # src/app/blog/views.py
 def about_view(request):
 
-    return render(request, 'blog/about.html')
+    about = About.objects.all()
+
+    data = {
+        "about":about
+    }
+
+    return render(request, 'blog/about.html', data)
