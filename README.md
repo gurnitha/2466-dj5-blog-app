@@ -962,3 +962,16 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/user/views.py
         modified:   templates/user/login.html
+
+
+#### 12. Membuat fungsionalitas login
+
+        modified:   README.md
+        modified:   app/user/views.py
+        modified:   templates/user/login.html
+
+        NOTE:
+
+        Setelah berhasil login, user seharusnya tidak lagi
+        ditampilkan menu login dan register, tetapi
+        seharusnya ditampilkan menu logout.

@@ -4,6 +4,7 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 from django.contrib.auth.forms import AuthenticationForm
+from django.contrib import auth 
 
 # Locals
 from app.user.forms import RegistrationForm
@@ -34,7 +35,23 @@ def register_view(request):
 
 def login_view(request):
 
-	form = AuthenticationForm()
+	"""AuthenticationForm ini akan dirender
+	saat user mengklik TOMBOL login"""
+	if request.method == "POST":
+		form = AuthenticationForm(request, request.POST)
+		if form.is_valid():
+			username = form.cleaned_data['username']
+			password = form.cleaned_data['password']
+
+			user = auth.authenticate(username=username, password=password)
+			if user is not None:
+				auth.login(request, user)
+			return redirect("blog:home")
+
+	else:
+		"""AuthenticationForm ini akan dirender saat
+		user mengklik MENU login"""
+		form = AuthenticationForm()
 
 	data = {
 		"form":form
