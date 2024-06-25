@@ -902,3 +902,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/user/views.py
         modified:   config/urls.py
         new file:   templates/user/register.html
+
+
+#### 4. Menambahkan form layout pada laman register
+
+        modified:   README.md
+        modified:   templates/user/register.html
