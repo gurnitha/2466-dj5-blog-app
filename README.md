@@ -874,3 +874,15 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 12. LOGIN & REGISTRASI
+
+
+#### 1. Membuat aplikasi user
+
+        modified:   README.md
+        new file:   app/user/__init__.py
+        new file:   app/user/admin.py
+        new file:   app/user/apps.py
+        new file:   app/user/migrations/__init__.py
+        new file:   app/user/models.py
+        new file:   app/user/tests.py
+        new file:   app/user/views.py
