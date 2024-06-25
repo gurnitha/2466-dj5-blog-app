@@ -915,3 +915,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         new file:   app/user/forms.py
 
+
+#### 6. Menampilkan model RegistrationForm melalui register_view
+
+        modified:   README.md
+        modified:   app/user/views.py
+        modified:   templates/user/register.html

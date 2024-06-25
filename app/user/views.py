@@ -3,7 +3,16 @@
 # Django and third parties modules
 from django.shortcuts import render
 
+# Locals
+from app.user.forms import RegistrationForm
+
 # Create your views here.
 
 def register_view(request):
-	return render(request, "user/register.html")
+
+	form = RegistrationForm()
+
+	data = {
+		"form":form
+	}
+	return render(request, "user/register.html", data)
