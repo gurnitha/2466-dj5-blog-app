@@ -975,3 +975,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         Setelah berhasil login, user seharusnya tidak lagi
         ditampilkan menu login dan register, tetapi
         seharusnya ditampilkan menu logout.
+
+
+#### 13. Menambahkan logik pada navbar untuk menu login, register, dan logout
+
+        modified:   README.md
+        modified:   templates/base.html
