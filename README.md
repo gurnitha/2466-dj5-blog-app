@@ -818,3 +818,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+### 10. Membuat context_processors get_social_links
+
+        modified:   README.md
+        modified:   app/blog/context_processors.py
+        modified:   config/settings.py
