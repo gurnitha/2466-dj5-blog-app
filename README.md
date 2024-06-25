@@ -921,3 +921,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/user/views.py
         modified:   templates/user/register.html
+
+
+#### 7. Styling laman register menggunakan crispy form
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   templates/base.html
+        modified:   templates/user/register.html

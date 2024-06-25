@@ -1,7 +1,7 @@
 <!-- src/templates/user/register.html -->
 
 {% extends 'base.html' %}
-
+{% load crispy_forms_tags %}
 
 {% block content %}
 
@@ -9,7 +9,7 @@
 <form action="" method="POST" style="width:500px; margin:auto;">
     {% csrf_token %}
 
-    {{ form }}
+    {{ form | crispy }}
     
     <button type="submit" class="btn btn-warning">Submit</button>
 </form>
