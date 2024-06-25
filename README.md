@@ -850,3 +850,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/blog/urls.py
         modified:   app/blog/views.py
         new file:   templates/blog/search.html
+
+
+#### 3. Membuat layout untuk laman search 
+
+        modified:   README.md
+        modified:   templates/blog/search.html
