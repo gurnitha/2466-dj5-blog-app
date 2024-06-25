@@ -908,3 +908,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/user/register.html
+
+
+#### 5. Membuat model RegistrationForm
+
+        modified:   README.md
+        new file:   app/user/forms.py
+
