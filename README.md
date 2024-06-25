@@ -661,3 +661,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   templates/blog/blogs_by_category.html
         modified:   templates/blog/blogs_by_slug.html
         modified:   templates/blog/index.html
+
+
+
+## 10. SOSIAL MEDIA DAN LAMAN ABOUT
