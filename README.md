@@ -742,3 +742,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   templates/blog/about.html
+
+
+### 7. Membuat model SocialLink
+
+        modified:   README.md
+        modified:   app/blog/models.py
