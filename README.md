@@ -981,3 +981,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/base.html
+
+
+#### 14. Logout the logged in user
+
+        modified:   README.md
+        modified:   app/user/urls.py
+        modified:   app/user/views.py
+        modified:   templates/base.html

@@ -58,3 +58,8 @@ def login_view(request):
 	}
 	
 	return render(request, "user/login.html", data)
+
+
+def logout_view(request):
+	auth.logout(request)
+	return redirect("blog:home")

@@ -49,7 +49,7 @@
                             href="{% url 'user:register' %}">Register</a>
                     {% else %}
                         <span style="padding-right: 15px;">{{ user|capfirst }}</span>
-                        <a class="btn btn-sm btn-outline-secondary" href="">Logout</a>
+                        <a class="btn btn-sm btn-outline-secondary" href="{% url 'user:logout' %}">Logout</a>
                     {% endif %}
                 </div>
                 
