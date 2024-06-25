@@ -895,3 +895,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   config/settings.py
 
 
+#### 3. Membuat laman register: url, view, template
+
+        modified:   README.md
+        new file:   app/user/urls.py
+        modified:   app/user/views.py
+        modified:   config/urls.py
+        new file:   templates/user/register.html
