@@ -90,7 +90,7 @@ def search_view(request):
         status='Published')
   
     # Testing
-    print(blogs)
+    # print(blogs)
 
     data = {
         'blogs': blogs,
