@@ -720,3 +720,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 4. Membuat laman about: url, views template
+
+        modified:   README.md
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
+        new file:   templates/blog/about.html
+        modified:   templates/blog/index.html
