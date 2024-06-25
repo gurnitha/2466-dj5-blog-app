@@ -3,6 +3,7 @@
 # Django and third parties modules
 from django.shortcuts import render
 from django.shortcuts import redirect
+from django.contrib.auth.forms import AuthenticationForm
 
 # Locals
 from app.user.forms import RegistrationForm
@@ -33,4 +34,10 @@ def register_view(request):
 
 def login_view(request):
 
-	return render(request, "user/login.html")
+	form = AuthenticationForm()
+
+	data = {
+		"form":form
+	}
+	
+	return render(request, "user/login.html", data)

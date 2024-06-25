@@ -955,3 +955,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/user/login.html
+
+
+#### 11. Menggunakan AuthenticationForm pada laman login melalui login_view
+
+        modified:   README.md
+        modified:   app/user/views.py
+        modified:   templates/user/login.html
