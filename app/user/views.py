@@ -29,3 +29,8 @@ def register_view(request):
 	}
 
 	return render(request, "user/register.html", data)
+
+
+def login_view(request):
+
+	return render(request, "user/login.html")

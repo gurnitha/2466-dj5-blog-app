@@ -940,3 +940,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         NOTE:
 
         Sukses register user baru.
+
+
+#### 9. Membuat laman login: url, view, template
+
+        modified:   README.md
+        modified:   app/user/urls.py
+        modified:   app/user/views.py
+        modified:   templates/base.html
+        new file:   templates/user/login.html
