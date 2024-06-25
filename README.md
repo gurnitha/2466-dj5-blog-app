@@ -729,3 +729,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/blog/views.py
         new file:   templates/blog/about.html
         modified:   templates/blog/index.html
+
+
+#### 5. Membuat layout untuk laman about
+
+        modified:   README.md
+        modified:   templates/blog/about.html

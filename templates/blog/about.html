@@ -1,13 +1,111 @@
-<!-- src/templates/blog/about.html -->
+<!-- src/templates/blog/blogs_by_slug.html -->
+{% extends 'base.html' %}
+{% load static %}
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About</title>
-</head>
-<body>
-	<h1>About My Blog App</h1>
-</body>
-</html>
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h1 class="fw-bolder mb-1">Rupiah Melemahalam Sepekan</h1>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">
+                        Posted on 23 Juni 2024, 14.11 
+                        by superuser
+                    </div>
+                    <!-- Post category-->
+                    <a 
+                        class="badge bg-primary text-decoration-none text-light" 
+                        href="#!">Ekonomi
+                    </a>
+                </header>
+                <!-- Post content-->
+                <section class="mb-5">
+                    <p class="fs-5 mb-4">Rupiah spot ditutup pada level Rp 16.450 per dolar AS di akhir perdagangan Jumat (21/6), melemah 0,12% dari sehari sebelumnya. Dalam sepekan, rupiah spot melemah sekitar 0,23%.
+                        Selaras dengan pergerakan di pasar spot, Rupiah Jisdor Bank Indonesia (BI) terpantau ikut melemah. Jumat (21/6), Rupiah Jisdor ditutup pada posisi Rp 16.458 per dolar AS, melemah 0,23% dibanding sehari sebelumnya. Dalam sepekan, rupiah Jisdor melemah sekitar 0,51%.
+                    </p>
+                </section>
+            </article>
+        </div>
+        <!-- Side widgets-->
+        <div class="col-lg-4">
+            <!-- Search widget-->
+            <div class="card mb-4">
+                <div class="card-header">Search</div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                        <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+            <div class="card mb-4 p-3">
+                <h4 class="font-italic">Categories</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="/blogs/1/">
+                                    Politik
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/2/">
+                                    Ekonomi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/3/">
+                                    Sain
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/4/">
+                                    Olahraga
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/5/">
+                                    Kesehatan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/6/">
+                                    Bisnis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/7/">
+                                    Teknologi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/blogs/8/">
+                                    Budaya
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Side widget-->
+            <div class="card mb-4 p-3">
+                <h4 class="font-italic">Follow Us</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
