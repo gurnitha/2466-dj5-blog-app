@@ -886,3 +886,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/user/models.py
         new file:   app/user/tests.py
         new file:   app/user/views.py
+
+
+#### 2. Mendaftarkan aplikasi user pada config/settings.py
+
+        modified:   README.md
+        modified:   app/user/apps.py
+        modified:   config/settings.py
+
+

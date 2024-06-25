@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # new
     "app.blog",
+    "app.user",
 ]
 
 MIDDLEWARE = [
