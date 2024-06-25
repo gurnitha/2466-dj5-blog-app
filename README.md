@@ -842,3 +842,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/base.html
+
+
+#### 2. Membuat search url, view, dan template
+
+        modified:   README.md
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
+        new file:   templates/blog/search.html

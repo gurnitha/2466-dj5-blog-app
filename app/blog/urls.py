@@ -14,5 +14,8 @@ urlpatterns = [
     path("about/", views.about_view, name="about"),
     path("blogs/<int:category_id>/", views.blogs_by_category_view, name="posts_by_category"),
     path('blogs/<slug:slug>/', views.blogs_by_slug_view, name='blogs_by_slug'),
+
+    # Search endpoint
+    path("blog/search/", views.search_view, name="search"),
 ]
 

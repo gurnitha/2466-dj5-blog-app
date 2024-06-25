@@ -73,3 +73,8 @@ def about_view(request):
     }
 
     return render(request, 'blog/about.html', data)
+
+
+def search_view(request):
+
+    return render(request, 'blog/search.html')
