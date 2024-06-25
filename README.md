@@ -748,3 +748,67 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+### 8. Membuat dan meng-aplikasikan migrasi untuk model SocialLink
+
+        (dj5-blog) λ python manage.py makemigrations blog
+        Migrations for 'blog':
+          app\blog\migrations\0004_sociallink.py
+            - Create model SocialLink
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py migrate blog 0004
+        Operations to perform:
+          Target specific migration: 0004_sociallink, from blog
+        Running migrations:
+          Applying blog.0004_sociallink... OK
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py sqlmigrate blog 0004
+        --
+        -- Create model SocialLink
+        --
+        CREATE TABLE `blog_sociallink` (
+                `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+                `platform` varchar(25) NOT NULL, 
+                `link` varchar(150) NOT NULL, 
+                `created_at` datetime(6) NOT NULL, 
+                `updated_at` datetime(6) NOT NULL
+        );
+
+        mysql> show tables;
+        +-----------------------------+
+        | Tables_in_2466_dj5_blog_app |
+        +-----------------------------+
+        | auth_group                  |
+        | auth_group_permissions      |
+        | auth_permission             |
+        | auth_user                   |
+        | auth_user_groups            |
+        | auth_user_user_permissions  |
+        | blog_about                  |
+        | blog_blog                   |
+        | blog_category               |
+        | blog_sociallink             |
+        | django_admin_log            |
+        | django_content_type         |
+        | django_migrations           |
+        | django_session              |
+        +-----------------------------+
+        14 rows in set (0.00 sec)
+
+        mysql> DESC blog_sociallink;
+        +------------+--------------+------+-----+---------+----------------+
+        | Field      | Type         | Null | Key | Default | Extra          |
+        +------------+--------------+------+-----+---------+----------------+
+        | id         | bigint       | NO   | PRI | NULL    | auto_increment |
+        | platform   | varchar(25)  | NO   |     | NULL    |                |
+        | link       | varchar(150) | NO   |     | NULL    |                |
+        | created_at | datetime(6)  | NO   |     | NULL    |                |
+        | updated_at | datetime(6)  | NO   |     | NULL    |                |
+        +------------+--------------+------+-----+---------+----------------+
+        5 rows in set (0.01 sec)
+
+        modified:   README.md
+        new file:   app/blog/migrations/0004_sociallink.py
