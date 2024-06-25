@@ -671,3 +671,46 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 2. Membuat dan meng-aplikasikan migrasi untuk model About
+
+        (dj5-blog) λ python manage.py makemigrations blog
+        Migrations for 'blog':
+          app\blog\migrations\0003_about.py
+            - Create model About
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py migrate blog 0003
+        Operations to perform:
+          Target specific migration: 0003_about, from blog
+        Running migrations:
+          Applying blog.0003_about... OK
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py sqlmigrate blog 0003
+        --
+        -- Create model About
+        --
+        CREATE TABLE `blog_about` (
+                `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+                `about_heading` varchar(25) NOT NULL, 
+                `about_description` longtext NOT NULL, 
+                `created_at` datetime(6) NOT NULL, 
+                `updated_at` datetime(6) NOT NULL
+        );
+
+        mysql> DESC blog_about;
+        +-------------------+-------------+------+-----+---------+----------------+
+        | Field             | Type        | Null | Key | Default | Extra          |
+        +-------------------+-------------+------+-----+---------+----------------+
+        | id                | bigint      | NO   | PRI | NULL    | auto_increment |
+        | about_heading     | varchar(25) | NO   |     | NULL    |                |
+        | about_description | longtext    | NO   |     | NULL    |                |
+        | created_at        | datetime(6) | NO   |     | NULL    |                |
+        | updated_at        | datetime(6) | NO   |     | NULL    |                |
+        +-------------------+-------------+------+-----+---------+----------------+
+        5 rows in set (0.05 sec)
+        
+        modified:   README.md
+        new file:   app/blog/migrations/0003_about.py
