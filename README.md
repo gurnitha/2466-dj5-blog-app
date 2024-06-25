@@ -836,3 +836,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 11. SEACRCH
+
+
+#### 1. Membuat search form
+
+        modified:   README.md
+        modified:   templates/base.html
