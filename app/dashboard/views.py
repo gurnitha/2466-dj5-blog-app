@@ -36,3 +36,8 @@ def dashboard_category_view(request):
 	}
 
 	return render(request, "dashboard/categories.html", data)
+
+
+
+def add_category_view(request):
+	return render(request, "dashboard/add_category.html")
