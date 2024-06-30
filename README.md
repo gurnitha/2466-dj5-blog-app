@@ -1009,3 +1009,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 3. Membuat Groups user dengan nama 'Manajer'
 
         modified:   README.md
+
+
+#### 4. Menempatkan pengguna ke grup
+
+        modified:   README.md
