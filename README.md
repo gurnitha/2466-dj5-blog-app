@@ -993,3 +993,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 13. PERMISSIONS DAN GROUPS
+
+
+#### 1. Tentang otorisasi dan otentikasi
+
+        modified:   README.md
