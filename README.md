@@ -1112,3 +1112,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/categories.html
+
+
+#### 14. Add font-awesome css
+
+        modified:   README.md
+        new file:   app/blog/static/css/font-awesome.min.css
+        modified:   templates/base.html
+        modified:   templates/dashboard/categories.html
