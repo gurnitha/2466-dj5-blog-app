@@ -1014,3 +1014,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 4. Menempatkan pengguna ke grup
 
         modified:   README.md
+
+
+
+## 14. CUSTOM DASHBOARD ATAU PROJECT SCALING
