@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 
 # Locals
 from app.blog.models import Category, Blog
+from app.dashboard.forms import CategoryForm
 
 # Create your views here.
 
