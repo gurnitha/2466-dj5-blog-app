@@ -1004,3 +1004,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   media/uploads/2024/06/30/perkotaan.PNG
+
+
+#### 3. Membuat Groups user dengan nama 'Manajer'
+
+        modified:   README.md
