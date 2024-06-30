@@ -1120,3 +1120,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/blog/static/css/font-awesome.min.css
         modified:   templates/base.html
         modified:   templates/dashboard/categories.html
+
+
+
+## 14. CRUD
