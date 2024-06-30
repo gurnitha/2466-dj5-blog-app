@@ -39,6 +39,12 @@ def dashboard_category_view(request):
 	return render(request, "dashboard/categories.html", data)
 
 
-
 def add_category_view(request):
-	return render(request, "dashboard/add_category.html")
+
+	form = CategoryForm()
+
+	data = {
+		"form":form
+	}
+	
+	return render(request, "dashboard/add_category.html", data)

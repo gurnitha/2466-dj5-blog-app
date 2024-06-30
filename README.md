@@ -1144,3 +1144,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   app/dashboard/forms.py
+
+
+#### 4. Membuat laman add category part 4: render model CategoryForm
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
