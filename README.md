@@ -1030,3 +1030,8 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   requirements.txt
+
+
+#### 3. Tentang dashboar untuk manager dan editor
+
+        modified:   README.md
