@@ -1099,3 +1099,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   templates/dashboard/categories.html
         modified:   templates/dashboard/dashboard.html
         new file:   templates/dashboard/left_sidebar.html
+
+
+#### 12. Membuat links highliting
+
+        modified:   README.md
+        modified:   templates/dashboard/left_sidebar.html
