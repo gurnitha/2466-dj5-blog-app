@@ -989,3 +989,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/user/urls.py
         modified:   app/user/views.py
         modified:   templates/base.html
+
+
+
+## 13. PERMISSIONS DAN GROUPS
