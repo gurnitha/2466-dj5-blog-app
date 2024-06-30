@@ -1091,3 +1091,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         new file:   templates/dashboard/categories.html
+
+
+#### 11. Membuat include file: left_sidebar
+
+        modified:   README.md
+        modified:   templates/dashboard/categories.html
+        modified:   templates/dashboard/dashboard.html
+        new file:   templates/dashboard/left_sidebar.html
