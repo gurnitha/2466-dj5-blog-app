@@ -1047,3 +1047,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   app/dashboard/models.py
         new file:   app/dashboard/tests.py
         new file:   app/dashboard/views.py
+
+
+#### 5. Mendaftarkan app dashboard pada dashboard/apps.py
+
+        modified:   README.md
+        modified:   app/dashboard/apps.py
+        modified:   config/settings.py
