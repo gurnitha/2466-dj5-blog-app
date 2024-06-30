@@ -1024,3 +1024,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   requirements.txt
+
+
+#### 2. Meng-upgrade paket-paket (packages)
+
+        modified:   README.md
+        modified:   requirements.txt
