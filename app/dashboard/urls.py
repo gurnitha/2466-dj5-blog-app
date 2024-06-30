@@ -11,5 +11,6 @@ app_name = "dashboard"
 
 urlpatterns = [
     path("dashboard/", views.dashboard_view, name="dashboard"),
+    path("dashboard/categories/", views.dashboard_category_view, name="dashboard_category"),
 ]
 

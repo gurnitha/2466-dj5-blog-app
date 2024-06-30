@@ -24,3 +24,8 @@ def dashboard_view(request):
 	}
 	
 	return render(request, "dashboard/dashboard.html", data)
+
+
+def dashboard_category_view(request):
+
+	return render(request, "dashboard/categories.html")
