@@ -15,5 +15,8 @@ urlpatterns = [
 
     # blog
     path("", include("app.blog.urls", namespace="blog")),
+
+    # dashboard
+    path("", include("app.dashboard.urls", namespace="dashboard")),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

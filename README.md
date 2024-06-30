@@ -1054,3 +1054,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/apps.py
         modified:   config/settings.py
+
+
+#### 6. Membuat laman dashboard: url, view, template
+
+        modified:   README.md
+        new file:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        modified:   config/urls.py
+        new file:   templates/dashboard/dashboard.html
