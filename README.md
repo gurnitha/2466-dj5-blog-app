@@ -1105,3 +1105,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/left_sidebar.html
+
+
+#### 13. Load categories pada laman dashboard_categories
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/categories.html

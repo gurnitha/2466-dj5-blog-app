@@ -26,6 +26,13 @@ def dashboard_view(request):
 	return render(request, "dashboard/dashboard.html", data)
 
 
+
 def dashboard_category_view(request):
 
-	return render(request, "dashboard/categories.html")
+	category_count = Category.objects.all().count()
+
+	data = {
+		"category_count":category_count,
+	}
+
+	return render(request, "dashboard/categories.html", data)
