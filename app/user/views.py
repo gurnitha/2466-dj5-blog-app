@@ -46,7 +46,7 @@ def login_view(request):
 			user = auth.authenticate(username=username, password=password)
 			if user is not None:
 				auth.login(request, user)
-			return redirect("blog:home")
+			return redirect("dashboard:dashboard")
 
 	else:
 		"""AuthenticationForm ini akan dirender saat

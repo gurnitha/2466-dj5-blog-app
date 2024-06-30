@@ -1076,3 +1076,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/dashboard.html
+
+
+#### 9. Login required decorator
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   app/user/views.py
