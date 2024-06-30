@@ -1,3 +1,47 @@
 <!-- src/templates/dashboard/dashboard.html -->
 
-DASHBOARD
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+    <!-- Left sidebar -->
+	<div class="col-md-3">
+	    <div class="nav flex-column nav-pills bg-light" 
+	    	aria-orientation="vertical">
+	        <a href="" class="nav-link text-dark bg-warning">Dashboard</a>
+	        <a href="" class="nav-link text-dark ">Users</a>
+	        <a href="" class="nav-link text-dark ">Categories</a>
+	        <a href="" class="nav-link text-dark ">Posts</a>
+	        <a href="" class="nav-link text-dark">Logout</a>
+	    </div>
+	</div>
+
+    <!-- Right side content -->
+    <div class="col-md-9">
+        <span>Logged in as <b> Manajer1 </b></span><br><br>
+        <div class="row">
+            <div class="col">
+                <div class="card border-default mb-3">
+                    <div class="card-header text-center 
+                    	text-uppercase font-weight-bold">All Categories</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title text-center">12</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-default mb-3">
+                    <div class="card-header text-center 
+                    	text-uppercase font-weight-bold">All posts</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title text-center">15</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

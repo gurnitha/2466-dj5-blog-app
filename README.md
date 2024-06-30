@@ -1063,3 +1063,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/views.py
         modified:   config/urls.py
         new file:   templates/dashboard/dashboard.html
+
+
+#### 7. Membuat layout untuk laman dashboard
+
+        modified:   README.md
+        modified:   templates/dashboard/dashboard.html
