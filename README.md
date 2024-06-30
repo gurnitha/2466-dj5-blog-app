@@ -1018,3 +1018,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 14. CUSTOM DASHBOARD ATAU PROJECT SCALING
+
+
+#### 1. Membuat requirements.txt file
+
+        modified:   README.md
+        new file:   requirements.txt
