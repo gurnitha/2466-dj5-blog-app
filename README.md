@@ -1069,3 +1069,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/dashboard.html
+
+
+#### 8. Count category dan blog
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/dashboard.html
