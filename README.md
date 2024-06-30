@@ -1035,3 +1035,15 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 3. Tentang dashboar untuk manager dan editor
 
         modified:   README.md
+
+
+#### 4. Membuat app dashboard
+
+        modified:   README.md
+        new file:   app/dashboard/__init__.py
+        new file:   app/dashboard/admin.py
+        new file:   app/dashboard/apps.py
+        new file:   app/dashboard/migrations/__init__.py
+        new file:   app/dashboard/models.py
+        new file:   app/dashboard/tests.py
+        new file:   app/dashboard/views.py
