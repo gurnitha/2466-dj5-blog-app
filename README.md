@@ -998,3 +998,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 #### 1. Tentang otorisasi dan otentikasi
 
         modified:   README.md
+
+
+#### 2. Membuat user baru sebagai editor
+
+        modified:   README.md
+        new file:   media/uploads/2024/06/30/perkotaan.PNG
