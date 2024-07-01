@@ -76,3 +76,9 @@ def edit_category_view(request, pk):
 	}
 
 	return render(request, "dashboard/edit_category.html", data)
+
+
+def delete_category_view(request, pk):
+	category = get_object_or_404(Category, pk=pk)
+	category.delete()
+	return redirect("dashboard:dashboard_category")

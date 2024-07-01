@@ -1180,3 +1180,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/edit_category.html
+
+
+#### 9. Delete a category
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/categories.html
