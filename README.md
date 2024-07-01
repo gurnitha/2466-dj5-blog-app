@@ -1252,3 +1252,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         new file:   media/uploads/2024/07/01/car_U9ERvsD.PNG
         new file:   media/uploads/2024/07/01/car_sa48IIq.PNG
         new file:   media/uploads/2024/07/01/car_tnFX6kR.PNG
+
+
+#### 9. Membuat laman edit blog part 1: url, view, dan template
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        new file:   templates/dashboard/edit_blog.html

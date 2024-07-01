@@ -125,3 +125,8 @@ def add_blog_view(request):
 	}
 
 	return render(request, "dashboard/add_blog.html", data)
+
+
+def edit_blog_view(request, pk):
+
+	return render(request, "dashboard/edit_blog.html")
