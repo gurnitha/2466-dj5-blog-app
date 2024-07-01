@@ -1233,3 +1233,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/add_blog.html
+
+
+#### 7. Add blog part 4: rendering BlogForm
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/add_blog.html

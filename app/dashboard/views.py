@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 
 # Locals
 from app.blog.models import Category, Blog
-from app.dashboard.forms import CategoryForm
+from app.dashboard.forms import CategoryForm, BlogForm
 
 # Create your views here.
 
@@ -101,4 +101,11 @@ def dashboard_blog_view(request):
 
 
 def add_blog_view(request):
-	return render(request, "dashboard/add_blog.html")
+
+	form = BlogForm()
+
+	data = {
+		"form":form,
+	}
+
+	return render(request, "dashboard/add_blog.html", data)
