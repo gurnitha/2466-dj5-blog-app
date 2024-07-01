@@ -1227,3 +1227,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/dashboard/forms.py
+
+
+#### 6. Add blog part 3: mengisi layout laman add_blog
+
+        modified:   README.md
+        modified:   templates/dashboard/add_blog.html
