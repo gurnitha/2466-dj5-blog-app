@@ -82,3 +82,11 @@ def delete_category_view(request, pk):
 	category = get_object_or_404(Category, pk=pk)
 	category.delete()
 	return redirect("dashboard:dashboard_category")
+
+
+# ==================CRUD BLOGS=================
+
+
+def dashboard_blog_view(request):
+	return render(request, "dashboard/blogs.html")
+

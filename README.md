@@ -1123,7 +1123,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 
-## 15. CRUD
+## 15. CRUD CATEGORIES
 
 
 #### 1. Membuat laman add category part 1: url, view, dan template
@@ -1192,3 +1192,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 16. CRUD BLOGS
+
+
+#### 1. Membuat laman blogs part 1: url, view, dan template
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        new file:   templates/dashboard/blogs.html
