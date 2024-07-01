@@ -1266,3 +1266,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/edit_blog.html
+
+
+#### 11. Membuat laman edit blog part 3: render BlogForm melalui edit_blog_view
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/edit_blog.html

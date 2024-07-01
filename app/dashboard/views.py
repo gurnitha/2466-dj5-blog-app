@@ -129,4 +129,10 @@ def add_blog_view(request):
 
 def edit_blog_view(request, pk):
 
-	return render(request, "dashboard/edit_blog.html")
+	form = BlogForm()
+
+	data = {
+		"form":form,
+	}
+
+	return render(request, "dashboard/edit_blog.html", data)
