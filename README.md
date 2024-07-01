@@ -1221,3 +1221,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         new file:   templates/dashboard/add_blog.html
+
+
+#### 5. Add blog part 2: membuat model BlogForm
+
+        modified:   README.md
+        modified:   app/dashboard/forms.py
