@@ -1213,3 +1213,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/blogs.html
+
+
+#### 4. Add blog part 1: url, view, dan template
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        new file:   templates/dashboard/add_blog.html

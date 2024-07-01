@@ -99,3 +99,6 @@ def dashboard_blog_view(request):
 
 	return render(request, "dashboard/blogs.html", data)
 
+
+def add_blog_view(request):
+	return render(request, "dashboard/add_blog.html")

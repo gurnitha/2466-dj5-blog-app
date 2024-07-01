@@ -20,5 +20,6 @@ urlpatterns = [
 
     # crud blogs
     path("dashboard/blogs/", views.dashboard_blog_view, name="dashboard_blog"),
+    path("dashboard/blogs/add/", views.add_blog_view, name="add_blog"),
 ]
 
