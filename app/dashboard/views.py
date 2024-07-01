@@ -3,6 +3,7 @@
 # Django and third parties modules
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.template.defaultfilters import slugify
 
 # Locals
 from app.blog.models import Category, Blog
@@ -102,7 +103,22 @@ def dashboard_blog_view(request):
 
 def add_blog_view(request):
 
-	form = BlogForm()
+	if request.method == 'POST':
+		form = BlogForm(request.POST, request.FILES)
+		if form.is_valid():
+			blog = form.save(commit=False) # temporarily saving the form
+			blog.author = request.user
+			blog.save()
+			title = form.cleaned_data['title']
+			blog.slug = slugify(title) + '-'+str(blog.id)
+			blog.save()
+			return redirect("dashboard:add_blog")
+		else:
+			print('form is invalid')
+			print(form.errors)
+
+	else:
+		form = BlogForm()
 
 	data = {
 		"form":form,

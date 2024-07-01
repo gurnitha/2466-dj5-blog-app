@@ -1240,3 +1240,15 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/add_blog.html
+
+
+#### 8. Add blog part 5: add logic pada add_blog_view dan add new blog
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        new file:   media/uploads/2024/07/01/car.PNG
+        new file:   media/uploads/2024/07/01/car_Bn2qxkx.PNG
+        new file:   media/uploads/2024/07/01/car_MwlZzXN.PNG
+        new file:   media/uploads/2024/07/01/car_U9ERvsD.PNG
+        new file:   media/uploads/2024/07/01/car_sa48IIq.PNG
+        new file:   media/uploads/2024/07/01/car_tnFX6kR.PNG
