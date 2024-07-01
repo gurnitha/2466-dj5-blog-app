@@ -1173,3 +1173,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/edit_category.html
+
+
+#### 8. Membuat laman edit category part 3: add logic pada edit_category_view
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/edit_category.html

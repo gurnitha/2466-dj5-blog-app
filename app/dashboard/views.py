@@ -1,7 +1,7 @@
 # src/app/dashboard/views.py
 
 # Django and third parties modules
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 
 # Locals
@@ -56,7 +56,23 @@ def add_category_view(request):
 	
 	return render(request, "dashboard/add_category.html", data)
 
-
-def edit_category_view(request, pk):
 	
-	return render(request, "dashboard/edit_category.html")
+def edit_category_view(request, pk):
+
+	category = get_object_or_404(Category, pk=pk)
+
+	if request.method == 'POST':
+		form = CategoryForm(request.POST, instance=category)
+		if form.is_valid():
+			form.save()
+			return redirect("dashboard:dashboard_category")
+
+	else:
+		form = CategoryForm(instance=category)
+
+	data = {
+		'category': category,
+		'form': form,
+	}
+
+	return render(request, "dashboard/edit_category.html", data)
