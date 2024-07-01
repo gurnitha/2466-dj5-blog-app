@@ -1,3 +1,25 @@
 <!-- src/templates/dashboard/edit_blog.html -->
 
-Edit Blog
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+<div class="row">
+    <!-- Left sidebar -->
+    {% include 'dashboard/left_sidebar.html' %}
+
+    <!-- Right side content -->
+    <div class="col-md-9">
+        <h2>Edit Blog</h2>
+        
+        <form action="" method="POST" enctype="multipart/form-data">
+            <input type="" name="">
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+        <br>
+    </div>
+</div>
+
+{% endblock %}

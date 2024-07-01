@@ -1260,3 +1260,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         new file:   templates/dashboard/edit_blog.html
+
+
+#### 10. Membuat laman edit blog part 2: membuat form layout
+
+        modified:   README.md
+        modified:   templates/dashboard/edit_blog.html
