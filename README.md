@@ -1167,3 +1167,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/categories.html
         new file:   templates/dashboard/edit_category.html
+
+
+#### 7. Membuat laman edit category part 2: membuat form
+
+        modified:   README.md
+        modified:   templates/dashboard/edit_category.html
