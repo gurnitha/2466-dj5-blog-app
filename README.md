@@ -1200,3 +1200,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         new file:   templates/dashboard/blogs.html
+
+
+#### 2. Membuat laman blogs part 2: highliting menu blogs
+
+        modified:   README.md
+        modified:   templates/dashboard/left_sidebar.html
