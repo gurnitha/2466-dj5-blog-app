@@ -1,7 +1,7 @@
 # src/app/dashboard/views.py
 
 # Django and third parties modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 
 # Locals
@@ -41,7 +41,15 @@ def dashboard_category_view(request):
 
 def add_category_view(request):
 
-	form = CategoryForm()
+	if request.method == "POST":
+
+		form = CategoryForm(request.POST)
+		if form.is_valid():
+			form.save()
+			return redirect("dashboard:dashboard_category")
+	
+	else:
+		form = CategoryForm()
 
 	data = {
 		"form":form

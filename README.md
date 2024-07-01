@@ -1150,3 +1150,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/dashboard/views.py
+
+
+#### 5. Membuat laman add category part 5: add logic pada add_category view dan testing
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/add_category.html
+        modified:   templates/dashboard/categories.html
