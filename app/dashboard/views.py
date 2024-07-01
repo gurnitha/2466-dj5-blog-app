@@ -88,5 +88,14 @@ def delete_category_view(request, pk):
 
 
 def dashboard_blog_view(request):
-	return render(request, "dashboard/blogs.html")
+
+	blogs = Blog.objects.all()
+	blog_count = Blog.objects.all().count()
+
+	data = {
+		'blogs': blogs,
+		"blog_count":blog_count,
+	}
+
+	return render(request, "dashboard/blogs.html", data)
 

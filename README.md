@@ -1206,3 +1206,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/left_sidebar.html
+
+
+#### 3. Membuat laman blogs part 3: load dan fetch blogs
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/blogs.html
