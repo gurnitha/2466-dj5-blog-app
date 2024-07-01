@@ -1273,3 +1273,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/edit_blog.html
+
+
+#### 12. Membuat laman edit blog part 4: menambahkan logic pada edit_blog_view dan testing edit blog
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/blogs.html
+        modified:   templates/dashboard/edit_blog.html
