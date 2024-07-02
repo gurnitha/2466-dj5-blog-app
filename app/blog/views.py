@@ -59,7 +59,7 @@ def blogs_by_slug_view(request, slug):
 
     # Comments
     comments = Comment.objects.filter(blog=single_blog)
-    # comment_count = comments.count()
+    comment_count = comments.count()
 
     # testing
     # print("comment ==>", comments )
@@ -67,6 +67,7 @@ def blogs_by_slug_view(request, slug):
     data = {
         "single_blog":single_blog,
         "comments": comments,
+        "comment_count":comment_count,
     }
 
     return render(request, 'blog/blogs_by_slug.html', data)

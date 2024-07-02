@@ -38,7 +38,7 @@
                     <p class="fs-5 mb-4">{{ single_blog.blog_body }}</p>
 
                     <!-- Comments -->
-                    <h4>Komen: 1</h4>
+                    <h4>Komen: {{ comment_count }}</h4>
 
                     {% if comments %}
                         {% for comment in comments %}

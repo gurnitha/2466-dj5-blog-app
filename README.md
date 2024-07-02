@@ -1498,3 +1498,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 7. Load dan display comments part 4: menampilkan jumlah komen
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/blog/blogs_by_slug.html
