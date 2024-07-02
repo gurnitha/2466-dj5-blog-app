@@ -6,7 +6,7 @@ from django.http import HttpResponse
 from django.db.models import Q
 
 # Locals
-from app.blog.models import Category, Blog, About
+from app.blog.models import Category, Blog, About, Comment
 
 # Create your views here.
 
@@ -57,8 +57,16 @@ def blogs_by_slug_view(request, slug):
     
     single_blog = get_object_or_404(Blog, slug=slug, status="Published")
 
+    # Comments
+    comments = Comment.objects.filter(blog=single_blog)
+    # comment_count = comments.count()
+
+    # testing
+    # print("comment ==>", comments )
+
     data = {
-        "single_blog":single_blog
+        "single_blog":single_blog,
+        "comments": comments,
     }
 
     return render(request, 'blog/blogs_by_slug.html', data)

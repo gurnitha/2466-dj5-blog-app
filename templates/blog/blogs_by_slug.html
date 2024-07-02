@@ -34,7 +34,18 @@
 
                 <!-- Post content-->
                 <section class="mb-5">
+                    <p class="fs-5 mb-4">{{ single_blog.short_description }}</p>
                     <p class="fs-5 mb-4">{{ single_blog.blog_body }}</p>
+
+                    <!-- Comments -->
+                    <h4>Komen: 1</h4>
+
+                    {% if comments %}
+                        <p>Show comments</p>
+                    {% else %}
+                        <p>No comment yet</p>
+                    {% endif %}
+
                 </section>
             </article>
         </div>

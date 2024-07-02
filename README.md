@@ -1479,3 +1479,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 4. Load dan display comments part 1: logika menampilkan komen
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/blog/blogs_by_slug.html
