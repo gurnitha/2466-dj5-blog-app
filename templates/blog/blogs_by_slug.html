@@ -41,9 +41,11 @@
                     <h4>Komen: 1</h4>
 
                     {% if comments %}
-                        <p>Show comments</p>
+                        {% for comment in comments %}
+                            {{ comment }}
+                        {% endfor %}
                     {% else %}
-                        <p>No comment yet</p>
+                        Belum ada komen
                     {% endif %}
 
                 </section>
