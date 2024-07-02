@@ -1366,3 +1366,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/dashboard/edit_user.html
+
+
+#### 12. Membuat laman edit user part 3: membuat model EditUserForm
+
+        modified:   README.md
+        modified:   app/dashboard/forms.py
