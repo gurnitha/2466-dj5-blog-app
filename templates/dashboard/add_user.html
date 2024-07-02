@@ -1,3 +1,26 @@
 <!-- src/templates/dashboard/add_user.html -->
 
-ADD USER
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+<div class="row">
+    <!-- Left sidebar -->
+    {% include 'dashboard/left_sidebar.html' %}
+
+    <!-- Right side content -->
+    <div class="col-md-9">
+        <h2>Add New User</h2>
+        
+        <form action="" method="POST" >
+        	<input type="" name="">
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+        <br>
+        <h5>Anda tidak memiliki izin untuk melihat halaman ini</h5>
+    </div>
+</div>
+
+{% endblock %}

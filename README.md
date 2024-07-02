@@ -1308,3 +1308,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         new file:   templates/dashboard/add_user.html
+
+
+#### 4. Membuat laman add user part 2: menambahkan layout
+
+        modified:   README.md
+        modified:   templates/dashboard/add_user.html
