@@ -23,5 +23,8 @@ urlpatterns = [
     path("dashboard/blogs/add/", views.add_blog_view, name="add_blog"),
     path("dashboard/blogs/edit/<int:pk>/", views.edit_blog_view, name="edit_blog"),
     path("dashboard/blogs/delete/<int:pk>/", views.delete_blog_view, name="delete_blog"),
+
+    # users
+    path("dashboard/users/", views.dashboard_user_view, name="dashboard_user"),
 ]
 

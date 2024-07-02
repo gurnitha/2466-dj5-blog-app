@@ -1286,3 +1286,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 17. MENGELOLA PENGGUNA DARI DASHBOARD
+
+
+#### 1. Membuat laman user part 1: url, view, template
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        new file:   templates/dashboard/users.html

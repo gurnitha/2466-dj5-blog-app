@@ -155,3 +155,11 @@ def delete_blog_view(request, pk):
 	blog = get_object_or_404(Blog, pk=pk)
 	blog.delete()
 	return redirect("dashboard:dashboard_blog")
+
+
+
+# ==================USERS=================
+
+
+def dashboard_user_view(request):
+	return render(request, 'dashboard/users.html')
