@@ -4,6 +4,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.template.defaultfilters import slugify
+from django.contrib.auth.models import User
 
 # Locals
 from app.blog.models import Category, Blog
@@ -162,7 +163,14 @@ def delete_blog_view(request, pk):
 
 
 def dashboard_user_view(request):
-	return render(request, 'dashboard/users.html')
+
+	users = User.objects.all()
+
+	data = {
+		"users":users,
+	}
+	
+	return render(request, 'dashboard/users.html', data)
 
 
 def add_user_view(request):
