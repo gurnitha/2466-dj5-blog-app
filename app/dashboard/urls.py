@@ -26,5 +26,6 @@ urlpatterns = [
 
     # users
     path("dashboard/users/", views.dashboard_user_view, name="dashboard_user"),
+    path("dashboard/users/add/", views.add_user_view, name="add_user"),
 ]
 

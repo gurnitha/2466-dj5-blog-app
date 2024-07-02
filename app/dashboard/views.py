@@ -163,3 +163,7 @@ def delete_blog_view(request, pk):
 
 def dashboard_user_view(request):
 	return render(request, 'dashboard/users.html')
+
+
+def add_user_view(request):
+	return render(request, 'dashboard/add_user.html')
