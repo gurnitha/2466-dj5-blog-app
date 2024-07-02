@@ -1386,3 +1386,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/edit_user.html
+
+
+#### 15. Delete user dan membuat tautan edit dan delete
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/users.html

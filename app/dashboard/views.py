@@ -211,3 +211,9 @@ def edit_user_view(request, pk):
 	}
 
 	return render(request, 'dashboard/edit_user.html', data)
+
+
+def delete_user_view(request, pk):
+	user = get_object_or_404(User, pk=pk)
+	user.delete()
+	return redirect("dashboard:dashboard_user")
