@@ -7,7 +7,7 @@ from django.template.defaultfilters import slugify
 
 # Locals
 from app.blog.models import Category, Blog
-from app.dashboard.forms import CategoryForm, BlogForm
+from app.dashboard.forms import CategoryForm, BlogForm, AddUserForm
 
 # Create your views here.
 
@@ -166,4 +166,11 @@ def dashboard_user_view(request):
 
 
 def add_user_view(request):
-	return render(request, 'dashboard/add_user.html')
+
+	form = AddUserForm()
+
+	data = {
+		"form":form,
+	}
+	
+	return render(request, 'dashboard/add_user.html', data)

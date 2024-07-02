@@ -1320,3 +1320,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/dashboard/forms.py
+
+
+#### 6. Membuat laman add user part 4: me-render model AddUserForm
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/add_user.html
