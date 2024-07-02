@@ -1420,3 +1420,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
 ## 18. COMMENTS
+
+
+#### 1. Membuat model Comment
+
+        modified:   README.md
+        modified:   app/blog/models.py
