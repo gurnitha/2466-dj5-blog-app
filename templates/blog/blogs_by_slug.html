@@ -58,7 +58,6 @@
 
                     <br>
                     <div class="form-group">
-                        {% if user.is_authenticated %}
                         <form action="" method="POST">
                             {% csrf_token %}
                             <div class="form-group">
@@ -67,9 +66,6 @@
                             </div>
 
                         </form>
-                        {% else %}
-                        <p>Please <span><a href="{% url 'user:login' %}">login</a></span> to write a comment!</p>
-                        {% endif %}
                     </div>
 
                 </section>

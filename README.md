@@ -1511,3 +1511,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 9. Load dan display comments part 6: membuat komen dari dashboard
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        modified:   templates/blog/blogs_by_slug.html
