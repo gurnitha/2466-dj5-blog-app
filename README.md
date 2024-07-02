@@ -1426,3 +1426,50 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 2. Membuat dan menerapkan migrasi untuk model Comment
+
+        (dj5-blog) λ python manage.py makemigrations blog
+        Migrations for 'blog':
+          app\blog\migrations\0005_comment.py
+            - Create model Comment
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py migrate blog 0005
+        Operations to perform:
+          Target specific migration: 0005_comment, from blog
+        Running migrations:
+          Applying blog.0005_comment... OK
+
+        E:\django\2466-dj5-blog-app\src(main -> origin)
+        (dj5-blog) λ python manage.py sqlmigrate blog 0005
+        --
+        -- Create model Comment
+        --
+        CREATE TABLE `blog_comment` (
+                `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+                `comment` longtext NOT NULL, 
+                `created_at` datetime(6) NOT NULL, 
+                `updated_at` datetime(6) NOT NULL, 
+                `blog_id` bigint NOT NULL, 
+                `user_id` integer NOT NULL
+        );
+        ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_blog_id_c664fb0d_fk_blog_blog_id` FOREIGN KEY (`blog_id`) REFERENCES `blog_blog` (`id`);
+        ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_user_id_59a54155_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`);
+
+        mysql> DESC blog_comment;
+        +------------+-------------+------+-----+---------+----------------+
+        | Field      | Type        | Null | Key | Default | Extra          |
+        +------------+-------------+------+-----+---------+----------------+
+        | id         | bigint      | NO   | PRI | NULL    | auto_increment |
+        | comment    | longtext    | NO   |     | NULL    |                |
+        | created_at | datetime(6) | NO   |     | NULL    |                |
+        | updated_at | datetime(6) | NO   |     | NULL    |                |
+        | blog_id    | bigint      | NO   | MUL | NULL    |                |
+        | user_id    | int         | NO   | MUL | NULL    |                |
+        +------------+-------------+------+-----+---------+----------------+
+        6 rows in set (0.07 sec)
+
+        modified:   README.md
+        new file:   app/blog/migrations/0005_comment.py
