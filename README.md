@@ -1282,3 +1282,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/blogs.html
         modified:   templates/dashboard/edit_blog.html
+
+
+
+## 17. MENGELOLA PENGGUNA DARI DASHBOARD
