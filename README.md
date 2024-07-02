@@ -1352,3 +1352,11 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/users.html
+
+
+#### 10. Membuat laman edit user part 1:  url, view, template
+
+        modified:   README.md
+        modified:   app/dashboard/urls.py
+        modified:   app/dashboard/views.py
+        new file:   templates/dashboard/edit_user.html

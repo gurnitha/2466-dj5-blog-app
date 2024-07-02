@@ -191,3 +191,7 @@ def add_user_view(request):
 	}
 
 	return render(request, 'dashboard/add_user.html', data)
+
+
+def edit_user_view(request, pk):
+	return render(request, 'dashboard/edit_user.html')
