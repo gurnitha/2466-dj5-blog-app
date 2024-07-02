@@ -1492,3 +1492,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 6. Load dan display comments part 3: add style
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_slug.html

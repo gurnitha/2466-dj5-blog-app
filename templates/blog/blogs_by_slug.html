@@ -42,7 +42,15 @@
 
                     {% if comments %}
                         {% for comment in comments %}
-                            {{ comment }}
+                            <div class="card mt-1">
+                                <div class="card-body">
+                                    <p class="card-text mb-0">{{ comment }}</p>
+                                    <span>
+                                        <small>By {{ comment.user }}</small>
+                                        <small>| {{ comment.created_at | timesince }} ago</small>
+                                    </span>
+                                </div>
+                            </div>
                         {% endfor %}
                     {% else %}
                         Belum ada komen
