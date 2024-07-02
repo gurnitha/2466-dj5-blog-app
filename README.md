@@ -1505,3 +1505,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 8. Load dan display comments part 5: membuat form untuk komen
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_slug.html
