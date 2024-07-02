@@ -1,6 +1,6 @@
 # 2466-dj5-blog-app
 Membuat Aplikasi Blog menggunakan Django versi 5
-Github:https://github.com/gurnitha/2466-dj5-ultimate-task-manager
+Github:https://github.com/gurnitha/2466-dj5-blog-app
 Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
 
@@ -1416,3 +1416,7 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         2. Manager: dapat melakukan sesuatu sesuai ketentuan yang dibuat oleh superuser.
         3. Editor: dapat melakukan sesuatu (sangat terbatas) sesuai ketentuan yang dibuat oleh superuser.
            Contoh: tidak bisa menambah user baru.
+
+
+
+## 18. COMMENTS
