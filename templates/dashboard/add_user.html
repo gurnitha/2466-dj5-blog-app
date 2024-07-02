@@ -12,6 +12,7 @@
 
     <!-- Right side content -->
     <div class="col-md-9">
+        {% if perms.auth.add_user %}
         <h2>Add New User</h2>
         
         <form action="{% url 'dashboard:add_user' %}" method="POST" >
@@ -20,7 +21,9 @@
             <button type="submit" class="btn btn-warning">Submit</button>
         </form>
         <br>
+        {% else %}
         <h5>Anda tidak memiliki izin untuk melihat halaman ini</h5>
+        {% endif %}
     </div>
 </div>
 

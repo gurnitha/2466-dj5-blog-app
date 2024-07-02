@@ -1403,3 +1403,16 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   templates/dashboard/dashboard.html
         modified:   templates/dashboard/left_sidebar.html
         modified:   templates/dashboard/users.html
+
+
+#### 17. Membatasi ijin untuk menambah user baru
+
+        modified:   README.md
+        modified:   templates/dashboard/add_user.html
+
+        Note:
+
+        1. Superuser: dapat melakukan semuanya.
+        2. Manager: dapat melakukan sesuatu sesuai ketentuan yang dibuat oleh superuser.
+        3. Editor: dapat melakukan sesuatu (sangat terbatas) sesuai ketentuan yang dibuat oleh superuser.
+           Contoh: tidak bisa menambah user baru.
