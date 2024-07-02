@@ -1473,3 +1473,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
 
         modified:   README.md
         new file:   app/blog/migrations/0005_comment.py
+
+
+#### 3. Mendaftarkan model Comment pada blog/admin.py
+
+        modified:   README.md
+        modified:   app/blog/admin.py

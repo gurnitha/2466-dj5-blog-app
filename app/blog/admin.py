@@ -5,7 +5,7 @@ from django.contrib import admin
 
 
 # Locals
-from app.blog.models import Category, Blog, About, SocialLink
+from app.blog.models import Category, Blog, About, SocialLink, Comment
 
 
 # Register your models here.
@@ -21,3 +21,4 @@ admin.site.register(Category)
 admin.site.register(Blog, BlogAdmin)
 admin.site.register(About)
 admin.site.register(SocialLink)
+admin.site.register(Comment)
