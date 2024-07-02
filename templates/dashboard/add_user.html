@@ -14,8 +14,9 @@
     <div class="col-md-9">
         <h2>Add New User</h2>
         
-        <form action="" method="POST" >
-        	{{ form | crispy }}
+        <form action="{% url 'dashboard:add_user' %}" method="POST" >
+            {% csrf_token %}
+            {{ form | crispy }}
             <button type="submit" class="btn btn-warning">Submit</button>
         </form>
         <br>

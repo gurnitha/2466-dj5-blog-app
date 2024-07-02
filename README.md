@@ -1327,3 +1327,10 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/add_user.html
+
+
+#### 7. Membuat laman add user part 5: menambahkan logik pada add_user_view
+
+        modified:   README.md
+        modified:   app/dashboard/views.py
+        modified:   templates/dashboard/add_user.html

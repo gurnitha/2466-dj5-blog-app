@@ -167,10 +167,19 @@ def dashboard_user_view(request):
 
 def add_user_view(request):
 
-	form = AddUserForm()
+	if request.method == 'POST':
+		form = AddUserForm(request.POST)
+		if form.is_valid():
+			form.save()
+			return redirect("dashboard:dashboard_user")
+		else:
+			print(form.errors)
+
+	else:
+		form = AddUserForm()
 
 	data = {
 		"form":form,
 	}
-	
+
 	return render(request, 'dashboard/add_user.html', data)
