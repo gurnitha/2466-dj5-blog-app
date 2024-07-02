@@ -8,7 +8,14 @@
 				{% if '/dashboard/' == request.path %} bg-warning {% endif %}">
 				Dashboard</a>
 
-	        <a href="" class="nav-link text-dark ">Users</a>
+			{% if perms.auth.view_user %}
+	        	<a 
+	        		href="{% url 'dashboard:dashboard_user' %}" 
+	        		class="nav-link text-dark 
+	        		{% if '/users/' in request.path %}bg-warning{% endif %}">
+	        		Users
+	        	</a>
+        	{% endif %}
 
 	        <a 
 	        	href="{% url 'dashboard:dashboard_category' %}" 

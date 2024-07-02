@@ -1394,3 +1394,12 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   app/dashboard/urls.py
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/users.html
+
+
+#### 16. Tampilkan tab pengguna di sidebar secara kondisional, add links dan show loggen in user pada Dashboard
+
+        modified:   README.md
+        modified:   templates/dashboard/blogs.html
+        modified:   templates/dashboard/dashboard.html
+        modified:   templates/dashboard/left_sidebar.html
+        modified:   templates/dashboard/users.html
