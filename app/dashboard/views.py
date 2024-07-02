@@ -195,10 +195,19 @@ def add_user_view(request):
 
 def edit_user_view(request, pk):
 
-	form = EditUserForm()
+	user = get_object_or_404(User, pk=pk)
+
+	if request.method == 'POST':
+		form = EditUserForm(request.POST, instance=user)
+		if form.is_valid():
+			form.save()
+			return redirect("dashboard:dashboard_user")
+
+	else:
+		form = EditUserForm(instance=user)
 
 	data = {
 		"form":form,
 	}
-	
+
 	return render(request, 'dashboard/edit_user.html', data)

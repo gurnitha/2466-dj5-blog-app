@@ -15,6 +15,7 @@
         <h2>Edit User</h2>
         
         <form action="#" method="POST" >
+        	{% csrf_token %}
             {{ form | crispy }}
             <button type="submit" class="btn btn-warning">Submit</button>
         </form>
