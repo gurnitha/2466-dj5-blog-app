@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 
 # Locals
 from app.blog.models import Category, Blog
-from app.dashboard.forms import CategoryForm, BlogForm, AddUserForm
+from app.dashboard.forms import CategoryForm, BlogForm, AddUserForm, EditUserForm
 
 # Create your views here.
 
@@ -194,4 +194,11 @@ def add_user_view(request):
 
 
 def edit_user_view(request, pk):
-	return render(request, 'dashboard/edit_user.html')
+
+	form = EditUserForm()
+
+	data = {
+		"form":form,
+	}
+	
+	return render(request, 'dashboard/edit_user.html', data)
