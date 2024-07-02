@@ -1518,3 +1518,9 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/blog/views.py
         modified:   templates/blog/blogs_by_slug.html
+
+
+#### 10. Load dan display comments part 7: hanya user terautentikasi yg diijinkan membuat komen
+
+        modified:   README.md
+        modified:   templates/blog/blogs_by_slug.html
