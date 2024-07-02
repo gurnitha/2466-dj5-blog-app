@@ -1334,3 +1334,14 @@ Local:E:\_WORKSPACE\2024\django\Rathan Kumar\DjangoBlog
         modified:   README.md
         modified:   app/dashboard/views.py
         modified:   templates/dashboard/add_user.html
+
+
+#### 8. Membuat laman add user part 6: membuat user baru
+
+        modified:   README.md
+
+        NOTE:
+
+        1. User barus sebagai editor dan sebagai manajer
+        telah berhasil dibuat.
+        2. Tidak ada perubahan file.
